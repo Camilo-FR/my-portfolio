@@ -1,0 +1,215 @@
+/******************/
+/***GLOBALS***/
+/******************/
+
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&display=swap");
+
+.primary-biscotti {
+  color: #edbc7a;
+}
+.secondary-lochmara {
+  color: #0384bd;
+}
+.light-alice-blue {
+  color: #e5edf8;
+}
+.light-comtessa {
+  color: #e29e93;
+}
+
+.standard-button {
+  z-index: 2;
+  background-color: #e29e93;
+  color: #e5edf8;
+  width: 15rem;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 75px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.standard-button:hover {
+  background-color: #e5edf8;
+  color: #e29e93;
+  font-weight: bold;
+}
+
+.nav {
+  z-index: 2;
+  color: #e5edf8;
+  border-radius: 75px;
+  margin-top: 6rem;
+  text-align: center;
+  width: 20rem;
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  -webkit-backdrop-filter: blur(10px); /* assure la compatibilité avec safari */
+  backdrop-filter: blur(10px);
+  background-color: rgba(182, 182, 182, 0.3);
+}
+
+.icon-nav {
+  z-index: 3;
+}
+
+.icons-section {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.img-container img {
+  cursor: pointer;
+  width: 2.5rem;
+}
+
+.img-container:hover {
+  transform: scale(1.1);
+}
+
+/************/
+/***RESET***/
+/***********/
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
