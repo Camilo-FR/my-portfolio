@@ -1,6 +1,6 @@
 // Title Effect
 
-var message = "About";
+var message = "Skills";
 var msgCount = 0;
 var blinkCount = 0;
 var blinkFlg = 0;
