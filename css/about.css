@@ -11,7 +11,7 @@
 .about-title {
   z-index: 2;
   font-weight: bold;
-  margin-top: 17rem;
+  margin-top: 12rem;
   font-size: 3rem;
   height: 2rem;
 }
@@ -64,6 +64,11 @@
 .p-3 {
   animation: fade 1.5s linear 3s forwards;
   opacity: 0;
+}
+
+a {
+  z-index: 2;
+  margin-bottom: 5rem;
 }
 
 .nav {

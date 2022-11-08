@@ -14,14 +14,61 @@
       sizes="96x96"
       href="img/icons8-laptop-96.png"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
     <script src="js/utils/head.js"></script>
   </head>
   <body class="animated-bg">
     <main>
       <div class="content content--canvas">
         <div class="projects-container">
-          <div class="projects-title">Projects</div>
-
+          <div class="projects-title secondary-lochmara">
+            <h1 class="title-effect"></h1>
+          </div>
+          <div class="bg-blur">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    class="slider-img"
+                    src="img/Frontend-Mentor-coming-soon.JPG"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="slider-img"
+                    src="img/Frontend-Mentor-huddle.JPG"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img class="slider-img" src="img/Mega-Sales.JPG" />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="slider-img"
+                    src="img/Frontend-Mentor-fourCards.JPG"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img class="slider-img" src="img/projet-cooking.JPG" />
+                </div>
+                <div class="swiper-slide">
+                  <a href="https://www.youtube.com" target="_blank">
+                    <h2>Belles fourmis sur des feuilles</h2>
+                    <img
+                      class="slider-img"
+                      src="img/Frontend-Mentor-E-commerce.JPG"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
           <!--****NAV-SECTION****-->
           <nav class="nav">
             <div class="icons-section">
@@ -55,6 +102,8 @@
     <script src="js/utils/util.js"></script>
     <script src="js/utils/swirl.js"></script>
     <script src="js/utils/nav.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="js/projects.js"></script>
   </body>
 </html>

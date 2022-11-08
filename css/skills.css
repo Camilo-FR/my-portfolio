@@ -13,7 +13,7 @@
   font-weight: bold;
   font-size: 3rem;
   height: 2rem;
-  margin-top: 7rem;
+  margin-top: 9rem;
 }
 
 .title-effect {
@@ -49,6 +49,12 @@
 
 .skills-img img {
   width: 100%;
+}
+
+a {
+  z-index: 2;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
 }
 
 .nav {
