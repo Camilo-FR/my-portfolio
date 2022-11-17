@@ -38,7 +38,15 @@
 }
 
 .text-part {
-  width: 50%;
+  width: 40vw;
+  margin: 0 auto;
+  margin-left: 0;
+  backdrop-filter: blur(10px);
+  background-color: rgba(229, 239, 248, 0.3);
+  border-radius: 30px;
+  padding: 4rem 2rem;
+  animation: fade 1.5s linear 0.5s forwards;
+  opacity: 0;
 }
 
 .text-part p {

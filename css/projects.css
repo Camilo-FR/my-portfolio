@@ -33,6 +33,15 @@
   height: 300px;
 }
 
+.swiper-slide h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.swiper-slide h2:hover {
+  color: rgb(3, 132, 189);
+}
+
 .slider-img {
   display: block;
   width: 100%;
@@ -45,6 +54,8 @@
   background-color: rgba(229, 239, 248, 0.3);
   border-radius: 30px;
   padding: 4rem 2rem;
+  animation: fade 1.5s linear 0.5s forwards;
+  opacity: 0;
 }
 
 .swiper-button-prev {
@@ -58,4 +69,13 @@
 
 .swiper-horizontal > .swiper-pagination-progressbar {
   top: 105% !important;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

@@ -24,6 +24,8 @@
   z-index: 2;
   margin-top: 10rem;
   margin-bottom: 2rem;
+  animation: fade 1.5s linear 0.5s forwards;
+  opacity: 0;
 }
 
 .first-section,
