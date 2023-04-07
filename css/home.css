@@ -25,6 +25,7 @@
   color: #0384bd;
   line-height: 1;
   margin-top: 12rem;
+  margin-bottom: 6rem;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   cursor: default;
 }
@@ -47,8 +48,4 @@
 
 .dud {
   color: #e5edf8;
-}
-
-.home-button {
-  margin-top: 6rem;
 }

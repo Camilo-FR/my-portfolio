@@ -13,7 +13,7 @@
   font-weight: bold;
   font-size: 3rem;
   height: 2rem;
-  margin-top: 9rem;
+  margin-top: 13rem;
 }
 
 .title-effect {
@@ -22,7 +22,7 @@
 
 .skills-section {
   z-index: 2;
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-bottom: 2rem;
   animation: fade 1.5s linear 0.5s forwards;
   opacity: 0;
@@ -55,7 +55,7 @@
 
 a {
   z-index: 2;
-  margin-top: 6rem;
+  margin-top: 0;
   margin-bottom: 1rem;
 }
 
