@@ -2,4 +2,5 @@
   --color-text: #ff53ff;
   --color-link: #3c48fa;
   --color-link-hover: #fff;
+  position: relative;
 }

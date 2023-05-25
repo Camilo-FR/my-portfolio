@@ -3,13 +3,71 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: calc(100vh - 13rem);
+  height: 100vh;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .contact-title {
   z-index: 2;
-  font-size: 1.5rem;
   font-weight: bold;
+  font-size: 3rem;
+  height: 2rem;
+  margin-bottom: 5rem;
+}
+
+.row-section {
+  display: flex;
+  z-index: 2;
+  width: 15rem;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+
+.keep-contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+input,
+textarea {
+  backdrop-filter: blur(10px);
+  background-color: rgba(229, 239, 248, 0.3);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+input {
+  width: 13rem;
+}
+
+textarea {
+  width: 20rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgb(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+}
+
+.form-button {
+  font-size: 1.1rem;
+  padding: 7px;
+  width: 7rem;
 }
