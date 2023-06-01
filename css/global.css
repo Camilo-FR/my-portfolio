@@ -5,16 +5,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&display=swap");
 
 .primary-biscotti {
-  color: rgb(237, 186, 120);
+  color: #edba78;
 }
 .secondary-lochmara {
-  color: rgb(3, 132, 189);
+  color: #0384bd;
 }
 .light-alice-blue {
-  color: rgb(229, 237, 248);
+  color: #e5edf8;
 }
 .light-comtessa {
-  color: rgb(226, 158, 147);
+  color: #e29e93;
 }
 
 .standard-button {

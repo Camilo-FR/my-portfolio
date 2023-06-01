@@ -19,8 +19,9 @@
 
 .row-section {
   display: flex;
+  justify-content: space-around;
+  width: 100vw;
   z-index: 2;
-  width: 15rem;
 }
 
 .form-section {
@@ -28,7 +29,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 75%;
+  width: 50%;
+  padding: 3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }
 
 .keep-contact-section {
@@ -36,7 +43,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25%;
+  width: 50%;
+  padding: 3rem;
 }
 
 input,
@@ -70,4 +78,118 @@ textarea::placeholder {
   font-size: 1.1rem;
   padding: 7px;
   width: 7rem;
+}
+
+.contact-section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.credits {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+}
+
+.credits p {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 0.3rem;
+  color: white;
+}
+
+.credits p a {
+  text-decoration: underline;
+}
+
+.contact-section-body {
+  margin: 2rem 0;
+  backdrop-filter: blur(10px);
+  background-color: rgba(229, 239, 248, 0.3);
+  color: white;
+  border-radius: 5px;
+  padding: 20px;
+  outline: none;
+  border: none;
+  width: 40%;
+}
+
+.first-section,
+.second-section {
+  display: flex;
+  justify-content: space-around;
+  animation: fade 1.5s linear 0.5s forwards;
+  opacity: 0;
+}
+
+.first-section {
+  border-bottom: solid 2px #edba78;
+  padding-bottom: 1rem;
+}
+
+.second-section {
+  padding-top: 1rem;
+}
+
+.img-linkedin {
+  animation: fade 1.5s linear 0.5s forwards;
+  opacity: 0;
+}
+.img-phone {
+  animation: fade 1.5s linear 1s forwards;
+  opacity: 0;
+}
+.img-github {
+  animation: fade 1.5s linear 1.5s forwards;
+  opacity: 0;
+}
+.img-email {
+  animation: fade 1.5s linear 2s forwards;
+  opacity: 0;
+}
+
+.contact-button {
+  font-size: 1.2rem;
+  padding: 15px;
+  width: 100%;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.img-phone,
+.img-email {
+  cursor: pointer;
+}
+
+.phone-modal {
+  position: absolute;
+  left: 5px;
+  background-color: #edba78;
+  padding: 5px;
+  border-radius: 5px;
+  display: none;
+}
+
+.email-modal {
+  position: absolute;
+  right: 0;
+  left: 8rem;
+  background-color: #edba78;
+  padding: 5px;
+  border-radius: 5px;
+  width: 65%;
+  display: none;
+}
+
+.show {
+  display: block;
 }
