@@ -25,22 +25,30 @@
           </div>
           <div class="row-section">
             <div class="form-section">
-              <form>
-                <input type="text" id="name" placeholder="Votre nom" required />
+              <form
+                action="https://formsubmit.co/camille.vacher@live.fr"
+                method="POST"
+              >
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Votre nom"
+                  required
+                />
                 <input
                   type="email"
-                  id="email"
+                  name="Email"
                   placeholder="Votre adresse mail"
                   required
                 />
                 <input
                   type="text"
-                  id="phone"
+                  name="Phone"
                   placeholder="Votre n° de téléphone"
                   required
                 />
                 <textarea
-                  id="message"
+                  name="Message"
                   rows="4"
                   placeholder="Votre message..."
                 ></textarea>
