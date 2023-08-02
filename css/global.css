@@ -69,6 +69,13 @@
   transform: scale(1.2);
 }
 
+@media only screen and (max-width: 450px) {
+  .standard-button {
+    width: 10rem;
+    font-size: 1rem;
+  }
+}
+
 /************/
 /***RESET***/
 /***********/

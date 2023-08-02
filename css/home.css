@@ -5,7 +5,6 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  height: calc(100vh - 13rem);
   justify-content: center;
   align-items: center;
 }
@@ -15,7 +14,6 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: calc(100vh - 13rem);
   justify-content: center;
   align-items: center;
 }
@@ -71,9 +69,30 @@
   color: #e5edf8;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1400px) {
+  .home-title {
+    margin-top: 8rem;
+    font-size: 3.5rem;
+  }
+
+  .nav {
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
   .home-title {
     width: 80%;
     font-size: 3rem;
+  }
+  .nav {
+    margin-top: 8rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .home-title {
+    width: 90%;
+    font-size: 2rem;
   }
 }
