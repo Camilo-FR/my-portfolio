@@ -145,6 +145,12 @@ a {
   }
 }
 
+@media only screen and (max-width: 1500px) {
+  .about-title {
+    margin-top: 3rem;
+  }
+}
+
 @media only screen and (max-width: 1400px) {
   .about-title {
     margin-top: 1rem;
