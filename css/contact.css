@@ -177,6 +177,7 @@ textarea::placeholder {
 .phone-modal {
   position: absolute;
   left: 5px;
+  bottom: 0;
   background-color: #edba78;
   padding: 5px;
   border-radius: 5px;
@@ -187,6 +188,7 @@ textarea::placeholder {
   position: absolute;
   right: 0;
   left: 8rem;
+  bottom: 0;
   background-color: #edba78;
   padding: 5px;
   border-radius: 5px;
