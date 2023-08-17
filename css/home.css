@@ -1,3 +1,85 @@
+.loader {
+  position: absolute;
+  display: flex;
+  background: rgb(237, 186, 120);
+  background: linear-gradient(
+    90deg,
+    rgba(237, 186, 120, 1) 0%,
+    rgba(229, 237, 248, 1) 50%,
+    rgba(226, 158, 147, 1) 100%
+  );
+  justify-content: center;
+  font-size: 1rem;
+  z-index: 4;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  animation: fadeinloader 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeinloader {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+    height: 100vh;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+  }
+}
+
+#loader-container {
+  position: relative;
+  display: flex;
+  height: 400px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#loader-container .reverse-round {
+  border-radius: 50%;
+  border: 10px solid transparent;
+  border-right-color: #0384bd;
+  border-left-color: #edba78;
+  margin: 10px;
+  position: absolute;
+}
+
+#circle1 {
+  height: 250px;
+  width: 250px;
+}
+
+#circle2 {
+  height: 200px;
+  width: 200px;
+}
+
+#circle3 {
+  height: 150px;
+  width: 150px;
+}
+
+#circle4 {
+  height: 100px;
+  width: 100px;
+}
+
+#circle5 {
+  height: 50px;
+  width: 50px;
+}
+
 .large-container {
   z-index: 2;
   display: flex;
@@ -7,6 +89,21 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
+  animation: appear 4s;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .home-container {
@@ -35,11 +132,11 @@
 }
 
 .home-button {
-  animation: fadeinbutton 4s;
+  animation: fadeinbutton 8s;
 }
 
 .nav {
-  animation: fadeinbutton 4s;
+  animation: fadeinbutton 8s;
 }
 
 @keyframes fadein {

@@ -1,4 +1,24 @@
 // ——————————————————————————————————————————————————
+// Loader
+// ——————————————————————————————————————————————————
+
+gsap.fromTo(
+  ".reverse-round",
+  {
+    rotate: 0,
+    scale: 0.5,
+  },
+  {
+    ease: "power4.inOut",
+    rotate: 180,
+    scale: 1,
+    stagger: 0.05,
+    yoyo: true,
+    repeat: -1,
+  }
+);
+
+// ——————————————————————————————————————————————————
 // TextScramble
 // ——————————————————————————————————————————————————
 
@@ -71,7 +91,7 @@ const nextFirst = () => {
   counter = (counter + 1) % phrases.length;
 };
 
-setTimeout(nextFirst, 0);
+setTimeout(nextFirst, 4000);
 
 nextFirst();
 
@@ -86,7 +106,7 @@ const nextSecond = () => {
   counter2 = (counter2 + 1) % phrases2.length;
 };
 
-setTimeout(nextSecond, 1200);
+setTimeout(nextSecond, 5200);
 
 nextSecond();
 
@@ -101,6 +121,6 @@ const nextThird = () => {
   counter3 = (counter3 + 1) % phrases3.length;
 };
 
-setTimeout(nextThird, 2400);
+setTimeout(nextThird, 6400);
 
 nextThird();
