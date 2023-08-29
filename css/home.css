@@ -26,8 +26,8 @@
     opacity: 1;
     height: 100vh;
   }
-  75% {
-    opacity: 0.5;
+  80% {
+    opacity: 1;
   }
   100% {
     opacity: 0;
